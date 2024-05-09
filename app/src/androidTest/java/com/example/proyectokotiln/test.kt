@@ -25,14 +25,17 @@ class test {
         var activity: tienda? = null
         var nombreUsuarioTextView: TextView? = null
 
+        // Use ActivityScenario to launch and interact with the activity
         ActivityScenario.launch<tienda>(intent).onActivity { currentActivity ->
             activity = currentActivity
             nombreUsuarioTextView = currentActivity.findViewById(R.id.nombreusaer)
         }
 
+        // Check if activity and TextView are not null
         assertNotNull(activity)
         assertNotNull(nombreUsuarioTextView)
 
+        // Perform your assertions
         assertEquals("Bienvenido, UsuarioEjemplo", nombreUsuarioTextView!!.text)
     }
 
