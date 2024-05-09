@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="onCreate_setsUsernameInTextView()">
+        <State />
+      </entry>
+      <entry key="testManejarTextoBusqueda()">
+        <State />
+      </entry>
+      <entry key="testMostrarTodosLinearLayouts()">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
